@@ -65,7 +65,7 @@ if (details.email === details1.email) {
  Write an algorithm that calculates the total cost to charge the user with.
 */
 
-let totalShoppingCart = 82
+let totalShoppingCart = 22
 
 if (totalShoppingCart > 50) {
     console.log("Congrats! You are eligible for free Shipping. So, the total amount to be paid is " + totalShoppingCart)
@@ -79,7 +79,17 @@ if (totalShoppingCart > 50) {
  Modify the previous answer inserting this information and, applying the same rules for the shipping cost, calculate the totalCost.
 */
 
-/* WRITE YOUR ANSWER HERE */
+
+let discount = (totalShoppingCart * 0.2)
+let totalCost = totalShoppingCart - discount
+
+if (totalShoppingCart > 50) {
+    totalShoppingCart = totalShoppingCart - discount
+    console.log("Congrats! You are eligible for free Shipping and 20% discount. So, the total amount to be paid is " + totalShoppingCart)
+} else {
+    totalShoppingCart = totalCost + 10
+    console.log("The total amount to be paid after 20% discount and including Shipping is " + totalShoppingCart)
+}
 
 /* EXERCISE 8
  Create a variable and assign to it an object representing a car, with properties like brand, model and licensePlate.
