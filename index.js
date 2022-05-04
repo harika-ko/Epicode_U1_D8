@@ -139,7 +139,9 @@ console.log(carsForRent)
  Remove the first and the last car from the carsForRent array.
 */
 
-
+carsForRent.shift()
+carsForRent.pop()
+console.log(carsForRent)
 
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
