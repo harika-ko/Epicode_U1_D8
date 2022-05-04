@@ -96,7 +96,37 @@ if (totalShoppingCart > 50) {
  Then clone it 5 times, and change the licensePlate for each cloned car without affecting the original one.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let car = {
+    brand: "Audi",
+    model: "Audi A8",
+    licensePlate: "DE 12345"
+}
+console.log(car)
+
+let car1 = {}
+Object.assign(car1, car)
+car1.licensePlate = "DE 23456"
+console.log(car1)
+
+let car2 = {}
+Object.assign(car2, car1)
+car2.licensePlate = "DE 34567"
+console.log(car2)
+
+let car3 = {}
+Object.assign(car3, car2)
+car3.licensePlate = "DE 45678"
+console.log(car3)
+
+let car4 = {}
+Object.assign(car4, car3)
+car4.licensePlate = "DE 56789"
+console.log(car4)
+
+let car5 = {}
+Object.assign(car5, car4)
+car5.licensePlate = "DE 01234"
+console.log(car5)
 
 /* EXERCISE 9
  Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
