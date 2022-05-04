@@ -132,13 +132,14 @@ console.log(car5)
  Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
 */
 
-let carsForRent = ["car", "car1", "car2", "car3", "car4", "car5"]
+let carsForRent = [car, car1, car2, car3, car4, car5]
+console.log(carsForRent)
 
 /* EXERCISE 10
  Remove the first and the last car from the carsForRent array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+
 
 /* EXERCISE 11
  Print to the console the type of the car variable you created before, as well as the types of its licensePlate and brand properties.
