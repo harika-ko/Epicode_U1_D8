@@ -170,7 +170,9 @@ console.log(totalCars)
  Using a loop, print to the console all the data for each car in the carsForSale array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+for (let i = 0; i < carsForSale.length; i++) {
+    console.log(carsForSale[i])
+}
 
 /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
