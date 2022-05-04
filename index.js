@@ -132,7 +132,7 @@ console.log(car5)
  Create a variable called carsForRent and assign to it an array containing all the cars from the previous exercise.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let carsForRent = ["car", "car1", "car2", "car3", "car4", "car5"]
 
 /* EXERCISE 10
  Remove the first and the last car from the carsForRent array.
