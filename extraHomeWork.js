@@ -43,7 +43,11 @@ console.log(min)
  Write a piece of code for getting only even numerical values from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+for (i = 0; i < maxArray.length; i++) {
+    if (maxArray[i] % 2 === 0) {
+        console.log("The even numbers in the array are ", + maxArray[i])
+    }
+}
 
 /* EXTRA 5
  Write a piece of code for deleting only even entries from an array.
