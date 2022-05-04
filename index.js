@@ -65,7 +65,14 @@ if (details.email === details1.email) {
  Write an algorithm that calculates the total cost to charge the user with.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let totalShoppingCart = 82
+
+if (totalShoppingCart > 50) {
+    console.log("Congrats! You are eligible for free Shipping. So, the total amount to be paid is " + totalShoppingCart)
+} else {
+    totalShoppingCart = totalShoppingCart + 10
+    console.log("The total amount to be paid including Shipping is " + totalShoppingCart)
+}
 
 /* EXERCISE 7
  You are working on an e-commerce website. Today is Black Friday and everything has a 20% discount at the end of the purchase.
