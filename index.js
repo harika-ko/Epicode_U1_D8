@@ -31,7 +31,9 @@ console.log(details)
  Add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
 */
 
-/* WRITE YOUR ANSWER HERE */
+details.haveDrivingLicense = false
+
+console.log(details)
 
 /* EXERCISE 4
  Remove from the previously created object the age property.
