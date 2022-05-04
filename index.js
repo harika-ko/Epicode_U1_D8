@@ -47,7 +47,17 @@ console.log(details)
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let details1 = {
+    name: "Maninadh",
+    surname: "Podapaka",
+    email: "maninadh@gmail.com"
+}
+
+if (details.email === details1.email) {
+    console.log("Email addresses are same")
+} else {
+    console.log("Email Addresses are different")
+}
 
 /* EXERCISE 6
  You are working on an e-commerce website. In the variable totalShoppingCart you are storing the total amount spent by the current user.
