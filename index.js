@@ -156,7 +156,15 @@ console.log(typeof 'licensePlate')
  Create a new variable called totalCars and assign to it the total number of cars present in the carsForSale and carsForRent arrays.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let carsForSale = [
+    { brand: "Audi", model: "Audi A7", licensePlate: "FR 12345" },
+    { brand: "Porsche", model: "Macan", licensePlate: "FR 23456" },
+    { brand: "Tesla", model: "Model 3", licensePlate: "FR 34567" }
+]
+
+let totalCars = carsForSale.concat(carsForRent)
+console.log(totalCars)
+
 
 /* EXERCISE 13
  Using a loop, print to the console all the data for each car in the carsForSale array.
