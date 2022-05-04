@@ -18,7 +18,14 @@ let numbers = [1, 2, 3, 4, 5]
  Create a variable and assign to it an object containing your name, surname, email address and age.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let details = {
+    name: "Harika",
+    surname: "Kommuri",
+    email: "harikakommuri35@gmail.com",
+    age: 25
+}
+
+console.log(details)
 
 /* EXERCISE 3
  Add to the previously created object a property with a boolean value to rappresent wheter you have or not a driving license.
