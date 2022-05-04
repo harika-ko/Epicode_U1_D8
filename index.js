@@ -39,7 +39,9 @@ console.log(details)
  Remove from the previously created object the age property.
 */
 
-/* WRITE YOUR ANSWER HERE */
+delete details.age
+
+console.log(details)
 
 /* EXERCISE 5
  Create a second object with another name, surname, email address and verify that this object has a different email address than the previous one.
