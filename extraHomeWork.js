@@ -15,13 +15,29 @@ console.log(array1)
  Write a piece of code for getting the maximum numerical value from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let maxArray = [54, 66, 21, 90, 39, 150, 13, 23]
+let max = maxArray[0]
+
+for (let i = 1; i < maxArray.length; i++) {
+    if (maxArray[i] > max) {
+        max = maxArray[i]
+    }
+}
+console.log(max)
 
 /* EXTRA 3
  Write a piece of code for getting the minimum numerical value from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let min = maxArray[0]
+
+for (i = 1; i < maxArray[i]; i++) {
+    if (maxArray[i] < min) {
+        min = maxArray[i]
+    }
+}
+
+console.log(min)
 
 /* EXTRA 4
  Write a piece of code for getting only even numerical values from an array.
