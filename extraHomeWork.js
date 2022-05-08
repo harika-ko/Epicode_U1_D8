@@ -53,27 +53,57 @@ for (i = 0; i < maxArray.length; i++) {
  Write a piece of code for deleting only even entries from an array.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let arr = [15, 34, 56, 73, 99, 23]
+
+for (i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 1) {
+        console.log(arr[i])
+    }
+}
+
+
 
 /* EXTRA 6
  Write a piece of code for removing all the vowels from a string.
 */
 
-/* WRITE YOUR ANSWER HERE */
+let string = "iamajavascriptprogrammer"
+let result = ""
+for (i = 0; i < string.length; i++) {
+    switch (string[i]) {
+        case "a":
+        case "e":
+        case "i":
+        case "o":
+        case "u":
+            break
+        default: result = result + string[i]
+    }
+}
+
+console.log(result)
+
 
 /* EXTRA 7
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
 
-/* WRITE YOUR ANSWER HERE */
+for (i = 0; i < maxArray.length; i++) {
+    maxArray[i] = maxArray[i] + 1
+}
+console.log(maxArray)
 
 /* EXTRA 8 
  Replace all the strings contained in an array with their length.
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 
-/* WRITE YOUR ANSWER HERE */
+let stringArray = ["Epicode", "is", "great"]
 
+for (i = 0; i < stringArray.length; i++) {
+    let newArray = (stringArray[i].length)
+    console.log(newArray)
+}
 /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
 */
